@@ -83,7 +83,7 @@ p {
   padding: 1.25rem 0;
   color: #fff;
   text-align: center;
-  font: 'Lora',serif;
+  font-family: 'Lora',serif;
   line-height: 1.5em;
 }
 
@@ -306,19 +306,3 @@ p {
   font-family: 'Lora', serif;
 }
 
-/* スマートフォン画面幅（最大991pxまで）でスタイルを適用 */
-@media screen and (max-width: 991px) {
-  .footer_text,
-  .copy_right {
-    margin-top: 2rem;
-    text-align: center;
-    position: relative;
-  }
-
-  .copy_right>p,img {
-    margin-right: 1rem;
-    font-size: 14px;
-    margin: 0;
-    line-height: 35px;
-  }
-}
